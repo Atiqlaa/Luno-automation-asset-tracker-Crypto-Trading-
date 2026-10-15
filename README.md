@@ -1,4 +1,4 @@
-# Luno-automation-asset-tracker-Crypto-Trading-
+### Luno automation & asset tracker (Crypto-Trading)
 A lightweight Python CLI &amp; SQLite application that integrates with the Luno API for zero-friction access, order-level crypto position tracking, and automated fee-adjusted net P&amp;L calculations.
 
 **Designed** to overcome the limitations of single-average price aggregation found in standard exchange apps, this project introduces **Order-Level Tracking** — treating each buy order as an independent position to calculate accurate unrealized P&L against live market prices. Leveraging secure API keys, users can instantly check balances, pending order statuses, and profit statements from the command-line interface without navigating repeated web logins or 2FA prompts. Furthermore, the system features an **On-Demand Synchronization engine** powered by optimized SQL `UNION ALL` queries, ensuring single-pass order status updates without background CPU or RAM drain.
